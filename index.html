@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1 Code Challenge</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!---Student Grade Calculator--->
+    <!---it has a label, input and on click button and a p tag with an ID of grade--->
+    <div class="calc-gen">
+        <h1>Student Grade Calculator</h1>
+        <form>
+          <label for="marks">Enter student marks</label>
+          <input type="number" id="marks">
+          <button type="button" onclick="calculateGrade()">Calculate</button>
+        </form>
+        <p id="grade"></p>
+    </div>
+    <!---Speed Detector--->
+    <!---it has a label, input and on click button and a p tag with an ID of result--->
+    <div class="spd-detec">
+        <h1>Vehicle Speed Detector</h1>
+        <form>
+          <label for="speed">Enter Vehicle Speed (km/h):</label>
+          <input type="number" id="speed">
+          <button type="button" onclick="calculate()">Calculate</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <div class="sal-calc">
+		<form id="basic-form">
+            <h1>Net Salary Calculator</h1>
+            <div class="num">
+                <label for="basic-salary">Basic Salary</label>
+			    <input type="number" id="basic-salary" >
+            </div>
+            <div class="num">
+                <label for="benefits">Benefits</label>
+			<input type="number" id="benefits" >
+            </div>
+            <div class="num">
+                <button type="button" onclick="calculate()">Calculate</button>
+            </div>
+		</form>
+
+		<p id="result"></p>
+    </div>
+
+    <script src="./challenge/grade.js"></script> 
+    <script src="./challenge/speed.js"></script>
+    <script src="./challenge/salary.js"></script>
+</body>
+</html>
