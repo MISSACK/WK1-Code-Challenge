@@ -38,7 +38,7 @@ Musa M. Issack
 
 ## Author Info
 
-- Github - 
+- Github - https://github.com/MISSACK/WK1-Code-Challenge
 
 
 
