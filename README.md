@@ -26,11 +26,11 @@ The speed.js file contains code that takes the speed of a car as input and calcu
 
 The salary.js file contains code that calculates an individual's net salary based on the inputs of basic salary and benefits. 
 It calculates the;
-1)	Payee (income tax), 
-2)	NHIF deductions,
-3)	NSSF deductions, 
-4)	Gross salary,
-5)	Net salary using the tax rates provided.
+* Payee (income tax), 
+* NHIF deductions,
+* NSSF deductions, 
+* Gross salary,
+* Net salary using the tax rates provided.
 
 ## Author
 

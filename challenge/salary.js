@@ -61,7 +61,7 @@ function calculateNetSalary(salary, deductions){
 
     var monthlyTaxablePay = salary
 
-    var deductTax = calculateTaxRate(monthlyTaxablePay)// %
+    var deductTax = calculateTaxRate(monthlyTaxablePay)
 
     var grossPay = salary - ((deductTax / 100) * salary)
 
